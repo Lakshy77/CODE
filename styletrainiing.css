@@ -1,0 +1,9 @@
+.cointainer{
+    width:300px;
+    height: 250px;
+    background-color: #92ab2e;
+    border : 10px solid cadetblue;
+    box-shadow: 4px 4px 50px 6px red;
+    border-radius: 10%;
+    text-align: center;
+}

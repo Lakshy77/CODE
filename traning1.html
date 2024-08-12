@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- priority of css -> inline -> internal/external based on the squence of internal and external style call in html -->
+    <link rel="stylesheet" href="styletrainiing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id="text" class="para">This is a paragraph</p>
+    <!-- <style>    -->
+      <!-- /*Priorty id,class,tagName  */
+        #text{
+            background-color:#92ab2e;
+            text-decoration: underline;
+            font-size: 20px;
+            font-weight: 700;
+            font-style: normal;
+            text-align: center;
+            text-transform: capitalize;
+            color: rgb(16,24,22);
+            line-height: 50px;
+            /* letter-spacing: 2px; */
+            /* word-spacing: 20px; */
+            ;
+        }
+        p{
+            background-color: blue;
+        }
+          .para{  
+            background-color: red;
+          }  -->
+    <!-- </style> -->
+</head>
+<body>
+    <!-- inline, internal, eternal -->
+    <!-- css selectors --- id, class, tagName, universal selector -->
+     <!-- html will give priority to first inline and then both internal and external -->
+    <!-- id must be unique          #id_name -->
+    <!-- classes can be used multiple times         .class_name -->
+     <div class="cointainer">
+     <!-- <p id="text",class="para",tagName="p"> -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illo dolor porro natus saepe. Illum incidunt ullam ad deserunt minima.
+        </p>
+        <span id="text">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, architecto iure labore magnam sint nihil ipsa. Aut eveniet tempore commodi?
+        </span>
+        <!--  -->
+     </div>
+</body>
+</html>
