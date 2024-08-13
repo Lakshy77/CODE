@@ -39,3 +39,16 @@ body{
     background-color: white;
     text-align: center;
 }
+.Magic{
+    display: flex;
+    padding:10px 250px 10px 250px;
+    gap: 25px;
+}
+.tic{
+    border: 5px solid black;
+    align-items: center;
+}
+.box{
+    text-align: left;
+
+}
