@@ -39,16 +39,18 @@ body{
     background-color: white;
     text-align: center;
 }
+.tic{
+    /* align-items: center; */
+    border   :2px solid black;
+    
+}
 .Magic{
     display: flex;
-    padding:10px 250px 10px 250px;
-    gap: 25px;
+    /* padding:10px 5px 10px 5px;  */
+    /* gap: 25px; */
 }
-.tic{
-    border: 5px solid black;
-    align-items: center;
-}
+
 .box{
-    text-align: left;
+    /* text-align: left; */
 
 }
